@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/mat-kul/Topshelf.DryIoc</PackageProjectUrl>
+    <Authors>Mateusz Kulesza</Authors>
+    <Company />
+    <Product />
+    <PackageLicenseUrl>https://github.com/mat-kul/Topshelf.DryIoc/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/mat-kul/Topshelf.DryIoc</RepositoryUrl>
+    <PackageTags>Topshelf DryIoc</PackageTags>
+    <Description>Topshelf integration with DryIoc</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DryIoc.dll" Version="4.*" />
+    <PackageReference Include="Topshelf" Version="4.2.*" />
+  </ItemGroup>
+
+</Project>

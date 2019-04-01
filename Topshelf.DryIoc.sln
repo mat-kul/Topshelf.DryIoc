@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topshelf.DryIoc", "Topshelf.DryIoc\Topshelf.DryIoc.csproj", "{9CEDE9E2-45CB-467C-AFB0-5A62C5FF8E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.DryIoc.Sample", "Topshelf.DryIoc.Sample\Topshelf.DryIoc.Sample.csproj", "{ECC788AB-D480-408D-A4A8-07CF492FACCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CEDE9E2-45CB-467C-AFB0-5A62C5FF8E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEDE9E2-45CB-467C-AFB0-5A62C5FF8E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEDE9E2-45CB-467C-AFB0-5A62C5FF8E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEDE9E2-45CB-467C-AFB0-5A62C5FF8E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC788AB-D480-408D-A4A8-07CF492FACCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC788AB-D480-408D-A4A8-07CF492FACCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC788AB-D480-408D-A4A8-07CF492FACCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC788AB-D480-408D-A4A8-07CF492FACCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B3093B7-374F-442B-92FE-4B2E6C92F5B6}
+	EndGlobalSection
+EndGlobal
