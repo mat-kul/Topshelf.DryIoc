@@ -3,6 +3,7 @@ Topshelf integration with DryIoc
 
 [![NuGet Badge](https://buildstats.info/nuget/Topshelf.DryIoc)](https://www.nuget.org/packages/Topshelf.DryIoc)
 [![Build Status](https://dev.azure.com/matkul3/Topshelf.DryIoc/_apis/build/status/mat-kul.Topshelf.DryIoc?branchName=master)](https://dev.azure.com/matkul3/Topshelf.DryIoc/_build/latest?definitionId=1&branchName=master)
+[![Build status](https://ci.appveyor.com/api/projects/status/r6sm1mxertsb986p/branch/master?svg=true)](https://ci.appveyor.com/project/mat-kul/topshelf-dryioc/branch/master)
 
 Supports .Net Framework 4.5.2, .Net Standard 2.0
 
