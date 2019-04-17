@@ -19,6 +19,14 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
+    command: 'restore'
+
+- task: CmdLine@2
+  inputs:
+    script: 'nuget update "Topshelf.DryIoc.Sample/packages.config"'
+    
+- task: NuGetCommand@2
+  inputs:
     restoreSolution: '$(solution)'
 
 - task: VSBuild@1
